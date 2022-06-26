@@ -71,3 +71,10 @@ TO use from the command line, you must be the correct user or do `sudo -u postgr
 - `\dt`: lists tables
 - `\q`: exits
 - `\c tuto`: connects to base tuto
+- `\i file`: executes commands from file
+
+# SQL commands
+
+- Install chinook_db tables by running `\i install/chinook_db.sql`
+- Note: for table names with uppercase, you are required to use quotes around the table name
+with postgres.
