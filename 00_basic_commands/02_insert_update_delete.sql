@@ -27,3 +27,10 @@ VALUES(
 ,'895.00'
 ,NULL
 );
+
+
+-- DELETE
+DELETE FROM "Shoes" WHERE "Brand"='Gucci2';
+
+-- UPDATE
+UPDATE "Shoes" SET "Brand"='Gucci3' WHERE "Brand"='Gucci';
