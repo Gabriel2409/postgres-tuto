@@ -17,5 +17,7 @@ SELECT * FROM "InvoiceLine" WHERE "UnitPrice" IN (0.99, 1.99);
 SELECT * FROM "InvoiceLine" WHERE "UnitPrice"=0.99 OR "UnitPrice"=1.99;
 -- and
 SELECT * FROM "InvoiceLine" WHERE "UnitPrice"=0.99 AND "InvoiceId"=1;
+--not
+SELECT * FROM "InvoiceLine" WHERE NOT ("UnitPrice"=0.99 AND "InvoiceId"=1);
 
 
